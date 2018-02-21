@@ -1,5 +1,4 @@
 const seleniumServer = require('selenium-server');
-const phantomjs = require('phantomjs-prebuilt');
 const chromedriver = require('chromedriver');
 
 require('nightwatch-cucumber')({
@@ -28,10 +27,8 @@ module.exports = {
       selenium_port: 4444,
       selenium_host: '127.0.0.1',
       desiredCapabilities: {
-        browserName: 'phantomjs',
-        javascriptEnabled: true,
-        acceptSslCerts: true,
-        'phantomjs.binary.path': phantomjs.path
+        browserName: 'chrome',
+        javascriptEnabled: true
       }
     },
     chrome: {
