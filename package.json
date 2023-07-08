@@ -9,7 +9,7 @@
   "author": "Modus Create",
   "license": "ISC",
   "devDependencies": {
-    "chromedriver": "^2.38.2",
+    "chromedriver": "^114.0.2",
     "cucumber": "^4.0.0",
     "cucumber-pretty": "^1.4.3",
     "nightwatch": "^0.9.20",
